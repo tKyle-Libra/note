@@ -17,7 +17,7 @@ graph TD
 
   router-->|router_url|opensdk_api_instance
 
-opensdk_api_static_register-->plugins_api_instance  
+  opensdk_api_static_register-->plugins_api_instance  
 
   plugin_a-->|register|opensdk_api_static_register
 
